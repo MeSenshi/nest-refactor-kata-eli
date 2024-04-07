@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1234,
+        "name": "Alice",
+        "roles": [
+            "admin"
+        ]
+    },
+    {
+        "id": 5678,
+        "name": "Bob",
+        "roles": [
+            "client"
+        ]
+    },
+    {
+        "id": 9012,
+        "name": "Charlie",
+        "roles": [
+            "client",
+            "view-only"
+        ]
+    },
+    {
+        "id": 3456,
+        "name": "David",
+        "roles": [
+            "view-only"
+        ]
+    },
+    {
+        "id": 7890,
+        "name": "Emily",
+        "roles": [
+            "admin",
+            "client"
+        ]
+    }
+]

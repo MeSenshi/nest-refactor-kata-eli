@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "text": "This is the first post.",
+      "userId": 1234
+    },
+    {
+      "id": 2,
+      "text": "Second post here!",
+      "userId": 5678
+    },
+    {
+      "id": 3,
+      "text": "Another post from user 1234.",
+      "userId": 1234
+    },
+    {
+      "id": 4,
+      "text": "Post number four!",
+      "userId": 9012
+    },
+    {
+      "id": 6,
+      "text": "Post!",
+      "userId": 9012
+    },
+    {
+      "id": 7,
+      "text": "Post again!",
+      "userId": 9012
+    },
+    {
+      "id": 5,
+      "text": "User 5678's second post.",
+      "userId": 5678
+    },
+    {
+      "id": 6,
+      "text": "this is a public post.."
+    },
+    {
+      "id": 7,
+      "text": "this is another public post."
+    }
+  ]
