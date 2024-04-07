@@ -29,14 +29,10 @@ export const users = {
   },
 
   async populate(query: string) {
-    let userPosts = await Promise.resolve(posts.find({ userId: parseInt(this.user.id) }));
-
     switch (query) {
       case "posts":
-        this.user.posts = userPosts;
+        this.user.posts = await Promise.resolve(posts.find({ userId: parseInt(this.user.id) }));
     }
-
-
     return this;
   }
 };
